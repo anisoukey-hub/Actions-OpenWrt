@@ -18,3 +18,4 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+echo 'CONFIG_KERNEL_DEBUG_INFO_BTF=y' >> .config
