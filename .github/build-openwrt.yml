@@ -1,4 +1,4 @@
 - name: Install compilation dependencies
         run: |
           sudo apt-get update
-          sudo apt-get -y install build-essential dwarves
+          sudo apt-get -y install build-essential dwarves dwarves
